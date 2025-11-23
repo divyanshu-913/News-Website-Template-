@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header-bar {
+  background-color: #131f49;
+  height: auto;
+  width: 100%;
+  float: left;
+  border: none;
+  border-bottom: 2px solid #dd2c2c;
+}
+
+#logo {
+  width: 40%;
+  float: left;
+}
+
+#site-logo {
+  padding-top: 25px;
+  height: 120px;
+}
+
+.logo-info {
+  color: white;
+  float: right;
+  text-align: start;
+  margin-right:160px;
+  padding-top: 68px;
+
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+time {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.navigations {
+  float: right;
+  margin: 0;
+}
+
+#nav-1 ul {
+    float: left;
+    padding-left: 5px;
+    padding-right: 8px;
+    padding-top: 40px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+    margin-inline: 4px;
+}
+
+#nav-1 ul a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#nav ul li a {
+  padding-bottom: 0px;
+  justify-content: end;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: left;
+  justify-content: space-between;
+}
+
+#nav-link1 {
+  margin-right: 150px;
+}
+#nav-link1 li {
+  text-decoration: none;
+  padding: 10px;
+  list-style: none;
+  text-align: left;
+  display: inline;
+  justify-content: start;
+  align-items: right;
+}
+
+#v-separator {
+  
+  height: 35px;
+  border: none;
+  border-right: 1px solid rgb(255, 255, 255);
+  cursor: default;
+  opacity: 15%;
+  float: left;
+  margin-top: 30px;
+  margin-right: 13px;
+}
+
+#nav-link2 li {
+  text-decoration: none;
+  padding: 5px;
+  list-style: none;
+  text-align: left;
+  display: inline;
+  justify-content: center;
+  align-items: right;
+}
+
+
+#link-separator {
+    width: 142%;
+    border-bottom: 0.5px solid rgb(248, 248, 248);
+    opacity: 15%;
+    float: right;
+    margin-top: 15px;
+    margin-right: 2px;
+}
+
+/* Right Side Navigations*/
+
+#nav-2 ul {
+    float: left;
+    padding-left: 2px;
+    padding-right: 0px;
+    padding-top: 15px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+    margin-inline: 0px;
+    margin-right:20px;
+}
+#nav-2 ul a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+#nav-2 ul li a {
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: left;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+#nav-link3 {
+  margin-right: 150px;
+}
+#nav-link3 li {
+  text-decoration: none;
+  padding: 15px;
+  list-style: none;
+  text-align: left;
+  display: inline;
+  justify-content: start;
+  align-items: right;
+}
+
+/* align Three Lines correctly*/
+#Three-lines {
+  float: left;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+
+#subscribe-button {
+  float: right;
+  color: #ffff;
+  background-color: RGB(229, 46, 46);
+  font-size: 13px;
+  padding: 8px 20px 9px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  padding: 9px 20px;
+  margin-top: 15px;
+}
+
+/* Hover Effect */
+
+
+#nav-link3 a:hover {
+  color: #dd2c2c;
+}
+
+
